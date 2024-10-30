@@ -1,0 +1,77 @@
+.cover {
+	width: 970px;
+	height: 250px;
+	background: url("../images/3_3.jpg") no-repeat right;
+	background-size: 50%;
+	position: absolute;
+	left: 17%;
+	bottom: 30%;
+	border: 3px #BF9b30 solid;
+
+}
+	
+}
+
+
+@font-face {
+	font-family: 'Rouge Script Reg';
+	src:url(../fonts/RougeScript-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'DM Serif Text Reg';
+	src:url(../fonts/DMSerifText-Regular.ttf) format('truetype');
+
+}
+
+.title {
+	font-family: 'Rouge Script Reg';
+	font-size: 55px;
+	line-height: 1;
+	color: #BF9B30;
+	position: absolute;
+	letter-spacing: 0.3px;
+	left: 2%;
+	bottom: 72%;
+}
+
+.text {
+	font-family: 'DM Serif Text Reg';
+	font-size: 30px;
+	color: black;
+	width: 800px;
+	letter-spacing: 0.1px;
+	line-height: 24;
+	position: absolute;
+	left: 10%;
+	bottom: -123%;
+
+}
+
+.button {
+	width: 320px;
+	height: 60px;
+	background: #BF9B30;
+	position: absolute;
+	left: 24%;
+	bottom: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	color: white;
+	text-align:center;
+	font-family: 'Helvetica';
+	border: 2px solid black;
+	display: block;
+	line-height: 48px;
+	color: white;
+}
+
+
+.button:hover {
+	color: black;
+	background: yellow;
+}
+
+
+
+
